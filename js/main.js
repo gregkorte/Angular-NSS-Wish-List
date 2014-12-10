@@ -44,7 +44,7 @@
       function submitItem(item, cb){
         $http.post('https://nss-wish-list.firebaseio.com/.json', item)
           .success(function(data){
-            // $location.path('/...');
+            $location.path('/list');
           })
           .error(function(err){
             console.log(err);
