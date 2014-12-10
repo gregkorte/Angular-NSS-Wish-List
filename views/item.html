@@ -1,10 +1,10 @@
-<div>
-  <div>
+<div id="item-page">
+  <div class="item-desc">
     <h2>{{itemCtrl.item.name}}</h2>
     <p>{{itemCtrl.item.desc}}</p>
-    <a href="{{itemCtrl.item.href}}">{{itemCtrl.item.href}}</a>
+    <a href="{{itemCtrl.item.href}}">Buy Now!</a>
+    <a class="item-btn btn btn-primary" href="/#/{{itemCtrl.itemId}}/edit">Edit Item</a>
+    <a class="item-btn btn btn-primary" ng-click="itemCtrl.deleteItem(itemCtrl.itemId)">Delete Item</a>
   </div>
   <img ng-src="{{itemCtrl.item.photo}}">
-  <a class="btn btn-primary" href="/#/{{itemCtrl.itemId}}/edit">Edit Item</a>
-  <a class="btn btn-primary" ng-click="itemCtrl.deleteItem(itemCtrl.itemId)">Delete Item</a>
 </div>
