@@ -16,7 +16,7 @@
   margin-top: 0px;
 }
 
-.item-btn {
+.btn {
   margin-top: 20px;
   margin-right: 30px;
   display: inline;
@@ -39,4 +39,59 @@
   width: 110px;
 }
 
+.shorten {
+  width: 300px;
+}
+
+label {
+  margin-top: 20px;
+}
+
+.item-list {
+  list-style: none;
+  margin-top: 40px;
+  margin-left: 10px;
+  padding: 5px 0;
+  width: 300px;
+}
+
+form {
+  float: left;
+}
+
+.img-preview {
+  float: left;
+  margin-left: 113px;
+  margin-top: 113px;
+  padding: 10px;
+  text-align: center;
+}
+
+.img-preview h5 {
+  line-height: 1;
+  margin-top: 0;
+}
+
+.img-preview img {
+  max-height: 90px;
+  max-width: 90px;
+  border-radius: 6px;
+  box-shadow: 5px 5px 5px rgba(0,0,0,0.5);
+  border: 1px grey solid;
+}
+
+.item-list img {
+  height: 100%;
+  width: 100%;
+}
+
+.item-list li {
+  min-height: 40px;
+}
+
+.list-img {
+  float: left;
+  width: 40px;
+  margin-right: 10px;
+}
 
