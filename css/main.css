@@ -22,14 +22,10 @@
   display: inline;
 }
 
-.btn {
-  display: inline-block;
-  width: 110px;
-}
-
 .item-desc {
   float: right;
   max-width: 70%;
+  min-width: 50%;
   display: inline;
 }
 
@@ -37,3 +33,10 @@
   display: block;
   line-height: 2;
 }
+
+.btn {
+  display: inline;
+  width: 110px;
+}
+
+
