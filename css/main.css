@@ -29,12 +29,13 @@
   display: inline;
 }
 
-.item-desc a {
+#buy-item {
   display: block;
   line-height: 2;
+  margin-bottom: 20px;
 }
 
-.btn {
+.item-btn {
   display: inline;
   width: 110px;
 }
@@ -95,3 +96,48 @@ form {
   margin-right: 10px;
 }
 
+@media screen and (max-width: 570px) {
+  
+  #item-page img {
+    display: block;
+    float: none;
+    margin-right: auto;
+    margin-left: auto;
+    width: 260px;
+  }
+  
+  .container {
+    text-align: center;
+  }
+  
+  .item-desc {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+    float: none;
+  }
+
+  .btn {
+    margin-right: auto;
+  }
+
+  .item-list {
+    margin: 10px auto;
+    width: 210px;
+    text-align: left;
+  }
+
+  form {
+    text-align: left;
+    width: 300px;
+    margin: auto;
+  }
+
+  #item-page {
+    margin-left: auto;
+    margin-right: auto;
+    width: 300px;
+  }
+  
+}
